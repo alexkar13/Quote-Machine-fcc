@@ -1,0 +1,50 @@
+html,body{
+	font size:62.5%;
+	margin: 0;
+	font-family: 'Raleway', sans-serif;
+	background: beige;
+}
+
+.box{
+	display:flex;
+	flex-flow: column ;
+	padding: 1.6rem;
+	margin-top:50px;
+	height:100%;
+	color: black;
+}
+
+h1{
+  font-size: 30px;
+}
+
+.data-wrapper{
+	background-color: white;
+	opacity: .7;
+  font-size: 1.8em;
+	font-weight: 700;
+	margin: 40px 15% 40px 15%;
+  padding: 10px;
+
+}
+
+.buttonsDiv{
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: center;
+	align-items: center;
+	height: 100px;
+  font-size: 16px;
+
+}
+
+.btn{
+  font-size: 20px;
+}
+
+#btn{
+	margin-right: 25px;
+}
+p{
+	margin-top: 1rem;
+}
